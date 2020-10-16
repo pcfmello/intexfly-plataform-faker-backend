@@ -6,6 +6,6 @@
     "nodemon": "^2.0.5"
   },
   "scripts": {
-    "start": "nodemon src/index.js --port 3005"
+    "start": "nodemon src/index.js"
   }
 }
