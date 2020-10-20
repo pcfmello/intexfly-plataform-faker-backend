@@ -120,7 +120,7 @@ router.get('/', async (req, res) => {
                 {
                     "label": [],
                     "backgroundColor": ["#4a8ddc", "#e47b78", "#54b192"],
-                    "data": [96.70, 2.37, 0.94]
+                    "data": [35, 45, 20]
                 }
             ]
         },
