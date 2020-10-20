@@ -79,7 +79,7 @@ router.get('/', async (req, res) => {
                         "COMÉRCIO, REPAR... ",
                         "INDUSTRIAS DE TR...", 
                         "INFORMAÇÃO E C...", 
-                        "EDUCAÇÃO", 
+                        "VAREJO",
                         "ATIVIDADES FINA...", 
                         "SAÚDE HUMANA ...", 
                         "ATIVIDADES ADMI...",
