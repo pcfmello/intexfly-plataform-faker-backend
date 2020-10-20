@@ -7,12 +7,12 @@ router.get('/', async (req, res) => {
     return res.send({
 
         "chartData": [
-            {"name": "14/01/2020", "good": 50, "regular": 20, "bad": 30},
-            {"name": "15/02/2020", "good": 75, "regular": 15, "bad": 10},
-            {"name": "13/03/2020", "good": 70, "regular": 25, "bad": 5},
-            {"name": "17/04/2020", "good": 80, "regular": 15, "bad": 5},
-            {"name": "15/05/2020", "good": 85, "regular": 10, "bad": 5},
-            {"name": "16/06/2020", "good": 85, "regular": 15, "bad": 0},
+            {"name": "14/01/2020", "good": 10, "regular": 20, "bad": 30},
+            {"name": "15/02/2020", "good": 30, "regular": 15, "bad": 10},
+            {"name": "13/03/2020", "good": 45, "regular": 25, "bad": 5},
+            {"name": "17/04/2020", "good": 45, "regular": 15, "bad": 5},
+            {"name": "15/05/2020", "good": 70, "regular": 10, "bad": 5},
+            {"name": "16/06/2020", "good": 78, "regular": 15, "bad": 0},
             {"name": "13/07/2020", "good": 90, "regular": 10, "bad": 0},
             {"name": "11/08/2020", "good": 95, "regular": 5, "bad": 0}
         ],
