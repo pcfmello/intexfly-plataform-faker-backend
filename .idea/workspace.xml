@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="052ba679-1597-4ddc-8925-5779af266344" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lista_para_plataforma.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/accountAnalysisController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/accountAnalysisController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
       <recent name="C:\Users\Contraktor\Desktop\intexfy\backendToIntexifyPlataform" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Contraktor\Desktop\intexfy\backendToIntexifyPlataform\public" />
       <recent name="C:\Users\Contraktor\Desktop\intexfy\backendToIntexifyPlataform" />
       <recent name="C:\Users\Contraktor\Desktop\intexfy\backendToIntexifyPlataform\src" />
     </key>
@@ -66,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603033356942</updated>
-      <workItem from="1603033357999" duration="16199000" />
+      <workItem from="1603033357999" duration="18271000" />
     </task>
     <task id="LOCAL-00001" summary="Delete yarn.lock to fix build">
       <created>1603114821144</created>
