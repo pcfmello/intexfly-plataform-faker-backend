@@ -63,7 +63,7 @@ router.get('/', async (req, res) => {
         ],
 
         "cnaeSegmentRelevance": {
-            "labels": ["COMÉRCIO, REP...", "INFORMAÇÃO E...", "SAÚDE HUMAN...", "ATIVIDADES FIN...", "INDÚSTRIAS DE..."],
+            "labels": ["VAREJO, REP...", "INFORMAÇÃO E...", "SAÚDE HUMAN...", "ATIVIDADES FIN...", "INDÚSTRIAS DE..."],
             "datasets": [
                 {
                     "label": "not_relevant",
