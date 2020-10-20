@@ -125,6 +125,17 @@ router.get('/', async (req, res) => {
             ]
         },
 
+        "jointStock": {
+            "labels": ["too_much", "small", "micro_enterprise"],
+            "datasets": [
+                {
+                    "label": [],
+                    "backgroundColor": ["#4a8ddc", "#e47b78", "#54b192"],
+                    "data": [55, 27, 18]
+                }
+            ]
+        },
+
         "numeroDeFuncionarios": {
             "labels": [
                 "0 - 1",
