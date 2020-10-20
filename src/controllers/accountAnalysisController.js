@@ -76,7 +76,7 @@ router.get('/', async (req, res) => {
                 },
                 "xaxis": {
                     "categories": [
-                        "COMÉRCIO, REPAR...", 
+                        "COMÉRCIO, REPAR... ",
                         "INDUSTRIAS DE TR...", 
                         "INFORMAÇÃO E C...", 
                         "EDUCAÇÃO", 
