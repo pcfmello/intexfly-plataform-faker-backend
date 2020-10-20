@@ -24,7 +24,7 @@ router.get('/', async (req, res) => {
                         "relevant"
                     ],
                     "datasets": [{
-                        "data": [130, 120, 65],
+                        "data": [50, 40, 10],
                         "backgroundColor": [
                             "#d92550",
                             "#f7b924",
@@ -47,7 +47,7 @@ router.get('/', async (req, res) => {
                         "relevant"
                     ],
                     "datasets": [{
-                        "data": [205, 80, 55],
+                        "data": [40, 30, 20],
                         "backgroundColor": [
                             "#d92550",
                             "#f7b924",
@@ -73,7 +73,7 @@ router.get('/', async (req, res) => {
                         "relevant"
                     ],
                     "datasets": [{
-                        "data": [130, 120, 65],
+                        "data": [70, 25, 5],
                         "backgroundColor": [
                             "#d92550",
                             "#f7b924",
@@ -96,7 +96,7 @@ router.get('/', async (req, res) => {
                         "relevant"
                     ],
                     "datasets": [{
-                        "data": [205, 80, 55],
+                        "data": [20, 10, 70],
                         "backgroundColor": [
                             "#d92550",
                             "#f7b924",
