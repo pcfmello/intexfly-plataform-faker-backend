@@ -1,17 +1,6 @@
 const express = require('express')
-const XLSX = require('xlsx')
 
 const router = express.Router();
-
-const workbook = XLSX.readFile('lista_para_plataforma.xlsx');
-const sheet_name_list = workbook.SheetNames;
-const xlData = XLSX.utils.sheet_to_json(workbook.Sheets[sheet_name_list[0]]);
-
-router.get('/getMapData', (req, res) => {
-    const locals = xlData.map(data => ({name: data.dsc_nome, position: [parseFloat(data.dsc_latitude), parseFloat(data.dsc_longitude)] }))
-
-    res.send(locals);
-})
 
 router.get('/', async (req, res) => {
 
