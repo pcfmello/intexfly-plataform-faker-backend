@@ -3,7 +3,7 @@ const XLSX = require('xlsx')
 
 const router = express.Router();
 
-const workbook = XLSX.readFile('lista_para_plataforma.xlsx');
+const workbook = XLSX.readFile('./public/lista_para_plataforma.xlsx');
 const sheet_name_list = workbook.SheetNames;
 const xlData = XLSX.utils.sheet_to_json(workbook.Sheets[sheet_name_list[0]]);
 
