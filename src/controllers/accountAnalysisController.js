@@ -1,17 +1,11 @@
-const express = require('express')
-const XLSX = require('xlsx')
+const express = require('express');
 
-const router = express.Router();
-
-const workbook = XLSX.readFile('./public/lista_para_plataforma.xlsx');
+const XLSX = require('xlsx');
+const workbook = XLSX.readFile('public/lista_para_plataforma.xlsx');
 const sheet_name_list = workbook.SheetNames;
 const xlData = XLSX.utils.sheet_to_json(workbook.Sheets[sheet_name_list[0]]);
 
-router.get('/getMapData', (req, res) => {
-    const locals = xlData.map(data => ({name: data.dsc_nome, position: [parseFloat(data.dsc_latitude), parseFloat(data.dsc_longitude)] }))
-
-    res.send(locals);
-})
+const router = express.Router();
 
 router.get('/', async (req, res) => {
 
@@ -248,6 +242,12 @@ router.get('/', async (req, res) => {
             { "value": "juridico", "count": 10 }
           ]
     })
-})
+});
+
+router.get('/getMapData', (req, res) => {
+    const locals = xlData.map(data => ({name: data.dsc_nome, position: [parseFloat(data.dsc_latitude), parseFloat(data.dsc_longitude)] }));
+
+    res.send(locals);
+});
 
 module.exports = app => app.use('/account-analysis', router)
