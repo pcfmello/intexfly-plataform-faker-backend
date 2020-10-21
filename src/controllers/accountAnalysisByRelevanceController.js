@@ -34,17 +34,17 @@ router.get('/', async (req, res) => {
             "datasets": [
                 {
                     "label": "not_relevant",
-                    "backgroundColor": ["#d92550"],
+                    "backgroundColor": ["#d92550", "#d92550", "#d92550"],
                     "data": [20, 7, 10]
                 },
                 {
                     "label": "neutral",
-                    "backgroundColor": ["#f7b924"],
+                    "backgroundColor": ["#f7b924", "#f7b924", "#f7b924"],
                     "data": [17, 3, 16]
                 },
                 {
                     "label": "relevant",
-                    "backgroundColor": ["#3ac47d"],
+                    "backgroundColor": ["#3ac47d", "#3ac47d", "#3ac47d"],
                     "data": [2, 1, 1]
                 }                
             ],
