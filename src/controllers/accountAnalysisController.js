@@ -201,19 +201,19 @@ router.get('/', async (req, res) => {
         "capitalSocial": [],
 
         "justificationsForAccounts": [
-            { "value": "100 funcionários", "count": 10, "color": "lightgrey" },
-            { "value": "É ecommerce", "count": 20, "color": "green" },
-            { "value": "Conta de interesse...", "count": 10, "color": "rgb(255, 193, 7)" },
-            { "value": "Conta de interesse...", "count": 15, "color": "rgb(255, 193, 7)" },
-            { "value": "Informações insufici...", "count": 13, "color": "rgb(255, 193, 7)" },
-            { "value": "Já prospectamos", "count": 10, "color": "rgb(255, 193, 7)" },
-            { "value": "Lead nada qualificad...", "count": 10, "color": "red" },
-            { "value": "Não tem site", "count": 10, "color": "rgb(255, 193, 7)" },
-            { "value": "Número é corresponde...", "count": 10, "color": "rgb(99, 194, 222)" },
-            { "value": "Porte apropriado", "count": 10, "color": "lightgrey" },
-            { "value": "Segmento apropriado", "count": 17, "color": "grelightgreyy" },
-            { "value": "Segmento inapropriado", "count": 17, "color": "lightgrey" },
-            { "value": "Varejo", "count": 10, "color": "green" }
+            { "value": "100 funcionários", "count": 10 },
+            { "value": "É ecommerce", "count": 20 },
+            { "value": "Conta de interesse...", "count": 10 },
+            { "value": "Conta de interesse...", "count": 15  },
+            { "value": "Informações insufici...", "count": 13 },
+            { "value": "Já prospectamos", "count": 10 },
+            { "value": "Lead nada qualificad...", "count": 10 },
+            { "value": "Não tem site", "count": 10 },
+            { "value": "Número é corresponde...", "count": 10 },
+            { "value": "Porte apropriado", "count": 10 },
+            { "value": "Segmento apropriado", "count": 17 },
+            { "value": "Segmento inapropriado", "count": 17 },
+            { "value": "Varejo", "count": 10 }
         ],
 
         "justificationsForContacts": [
