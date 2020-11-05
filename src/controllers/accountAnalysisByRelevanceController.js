@@ -101,7 +101,7 @@ router.get('/', async (req, res) => {
                         "horizontal": true
                     }
                 },
-                "colors":['#F44336', '#E91E63', '#9C27B0', '#F44336', '#E91E63', '#9C27B0', '#F44336', '#E91E63', '#9C27B0', '#F44336', '#E91E63', '#9C27B0'],
+                "colors":['#00e4a1'],
                 "xaxis": {
                     "categories": [
                         "COMÉRCIO, REPAR... ",
