@@ -143,13 +143,14 @@ router.get('/', async (req, res) => {
                     "id": "apexchart-example-3"
                 },
                 "dataLabels": {
-                    "enabled": false
+                    "enabled": true
                 },
                 "plotOptions": {
                     "bar": {
                         "horizontal": true
                     }
                 },
+                "colors":['#00e4a1'],
                 "xaxis": {
                     "categories": [
                         "COMÉRCIO, REPAR... ",
