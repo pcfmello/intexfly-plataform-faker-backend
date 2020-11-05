@@ -217,11 +217,11 @@ router.get('/', async (req, res) => {
         ],
 
         "justificationsForContacts": [
-            { "value": "Número é correspondente a inf...", "count": 15, "color": "rgb(99, 194, 222)" },
-            { "value": "Cargo não relevante", "count": 10, "color": "rgb(248, 108, 107)" },
-            { "value": "Cargo ou departamento relevante", "count": 20, "color": "rgb(99, 194, 222)" },
-            { "value": "Não é o responsável pela cont...", "count": 12, "color": "rgb(248, 108, 107)" },
-            { "value": "Cargo relevante", "count": 17, "color": "lightgrey" }
+            { "value": "Número é correspondente a inf...", "count": 15 },
+            { "value": "Cargo não relevante", "count": 10 },
+            { "value": "Cargo ou departamento relevante", "count": 20 },
+            { "value": "Não é o responsável pela cont...", "count": 12 },
+            { "value": "Cargo relevante", "count": 17 }
         ],
 
         "tagsDistribuition": [
