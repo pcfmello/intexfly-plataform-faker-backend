@@ -88,6 +88,102 @@ router.get('/', async (req, res) => {
             "longitude": -48.60266
         },
 
+        "shareCapitalRelevance": {
+            "option": {
+                "chart": {
+                    "id": "apexchart-example-3"
+                },
+                "dataLabels": {
+                    "enabled": false
+                },
+                "plotOptions": {
+                    "bar": {
+                        "horizontal": true
+                    }
+                },
+                "xaxis": {
+                    "categories": [
+                        "COMÉRCIO, REPAR... ",
+                        "INDUSTRIAS DE TR...", 
+                        "INFORMAÇÃO E C...", 
+                        "VAREJO",
+                        "ATIVIDADES FINA...", 
+                        "SAÚDE HUMANA ...", 
+                        "ATIVIDADES ADMI...",
+                        "CONSTRUÇÃO",
+                        "ATIVIDADES PROFI...",
+                        "AGRICULTURA, PE...",
+                        "ELETRICIDADE E G...",
+                        "TRANSPORTE, AR..."                        
+                    ]
+                }
+            },            
+            "series": [{
+                "data": [
+                    26.68, 
+                    17.52, 
+                    17.02, 
+                    15.27, 
+                    9.73, 
+                    7.86, 
+                    4, 
+                    3.75, 
+                    3, 
+                    2.5, 
+                    2, 
+                    1
+                ]
+            }]
+        },
+
+        "accountLegalClassificationRelevance": {
+            "option": {
+                "chart": {
+                    "id": "apexchart-example-3"
+                },
+                "dataLabels": {
+                    "enabled": false
+                },
+                "plotOptions": {
+                    "bar": {
+                        "horizontal": true
+                    }
+                },
+                "xaxis": {
+                    "categories": [
+                        "COMÉRCIO, REPAR... ",
+                        "INDUSTRIAS DE TR...", 
+                        "INFORMAÇÃO E C...", 
+                        "VAREJO",
+                        "ATIVIDADES FINA...", 
+                        "SAÚDE HUMANA ...", 
+                        "ATIVIDADES ADMI...",
+                        "CONSTRUÇÃO",
+                        "ATIVIDADES PROFI...",
+                        "AGRICULTURA, PE...",
+                        "ELETRICIDADE E G...",
+                        "TRANSPORTE, AR..."                        
+                    ]
+                }
+            },            
+            "series": [{
+                "data": [
+                    26.68, 
+                    17.52, 
+                    17.02, 
+                    15.27, 
+                    9.73, 
+                    7.86, 
+                    4, 
+                    3.75, 
+                    3, 
+                    2.5, 
+                    2, 
+                    1
+                ]
+            }]
+        },
+
         "companySizeRelevance": {
             "labels": ["Demais"],
             "datasets": [
